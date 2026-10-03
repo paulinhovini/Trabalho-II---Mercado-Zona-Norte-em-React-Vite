@@ -24,10 +24,17 @@ function App() {
                 <a className="nav-menu" href="#produtos">
                   <img src="icones/produtos.svg" alt="Produtos" className="nav-icon" />
                   <span>Produtos</span>
-                </a>
+                   </a>
+
+                    <div className="d-flex flex-column flex-lg-row align-items-lg-center gap-2">
+                      <a className="nav-menu" href="#dicas">
+                        <img src="icones/dicas.svg" alt="Dicas" className="nav-icon"/>
+                        <span>Dicas</span>
+                      </a>
+                    </div>
+                  </div>
               </div>
             </div>
-          </div>
         </nav>
       </main>
     </ div >
