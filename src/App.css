@@ -162,7 +162,7 @@ a.btn-produto:hover,
 }
 
 /* ==============================
-   ROLA
+   ROLAGEM
    ============================== */
 
 html {
@@ -172,3 +172,4 @@ html {
 section {
   scroll-margin-top: 80px;
 }
+
