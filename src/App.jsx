@@ -13,14 +13,14 @@ const ofertas = [
 ];
 
 const produtosDestaque = [
-  { id: 1, title: "Leite Líquido UHT Glória Integral 1l", price: "6,99", image: "/Imagens/Cards/Produtos/Leite.jpg" },
-  { id: 2, title: "Macarrão Espaguete Renata N.8 com Ovos 500g", price: "5,99", image: "/Imagens/Cards/Produtos/Macarrão.jpg" },
-  { id: 3, title: "Carne Moída de Alcatra Bovina", price: "58,99 kg", image: "/Imagens/Cards/Produtos/Carne Moída.jpg" },
-  { id: 4, title: "Refrigerante Coca-Cola Pet 1,5 L", price: "10,49", image: "/Imagens/Cards/Produtos/Refrigerante.jpg" },
-  { id: 5, title: "Sabão Líquido Omo Lavagem Perfeita 3L", price: "36,99", image: "/Imagens/Cards/Produtos/Sabão Liquido.jpg" },
-  { id: 6, title: "Amaciante Ypê Ultra Intenso 2 L", price: "10,99", image: "/Imagens/Cards/Produtos/Amaciante.jpg" },
-  { id: 7, title: "Água Sanitária Pro Water 2l", price: "5,99", image: "/Imagens/Cards/Produtos/Água Sanitária.jpg" },
-  { id: 8, title: "Limpador Veja Gold Multiuso 750ml", price: "6,49", image: "/Imagens/Cards/Produtos/Limpador Multiuso Veja.jpg" }
+  { id: 1, title: "Leite Líquido UHT Glória Integral 1l", price: "6,99", image: "/Imagens/Cards/Produtos/leite.jpg" },
+  { id: 2, title: "Macarrão Espaguete Renata N.8 com Ovos 500g", price: "5,99", image: "/Imagens/Cards/Produtos/macarrao.jpg" },
+  { id: 3, title: "Carne Moída de Alcatra Bovina", price: "58,99 kg", image: "/Imagens/Cards/Produtos/carne-moida.jpg" },
+  { id: 4, title: "Refrigerante Coca-Cola Pet 1,5 L", price: "10,49", image: "/Imagens/Cards/Produtos/refrigerante.jpg" },
+  { id: 5, title: "Sabão Líquido Omo Lavagem Perfeita 3L", price: "36,99", image: "/Imagens/Cards/Produtos/sabao-liquido.jpg" },
+  { id: 6, title: "Amaciante Ypê Ultra Intenso 2 L", price: "10,99", image: "/Imagens/Cards/Produtos/amaciante.jpg" },
+  { id: 7, title: "Água Sanitária Pro Water 2l", price: "5,99", image: "/Imagens/Cards/Produtos/agua-sanitaria.jpg" },
+  { id: 8, title: "Limpador Veja Gold Multiuso 750ml", price: "6,49", image: "/Imagens/Cards/Produtos/limpador-multiuso.jpg" }
 ];
 
 const dicas = [
@@ -29,7 +29,7 @@ const dicas = [
     category: "Economia",
     title: "Fruteira, bancada ou geladeira: onde guardar frutas e hortaliças?",
     description: "Saiba como conservar e higienizar seus alimentos da melhor forma.",
-    image: "/Imagens/Dicas/frutas e hortaliças.jpg",
+    image: "/Imagens/Dicas/frutas-e-hortalicas.jpg",
     link: "https://g1.globo.com/pr/campos-gerais-sul/agro-riqueza-campos-gerais/noticia/2024/04/15/fruteira-bancada-ou-geladeira-onde-guardar-frutas-e-hortalicas.ghtml",
     buttonText: "Ler Dica Completa"
   },
@@ -38,7 +38,7 @@ const dicas = [
     category: "Receitas",
     title: "Massa fresca caseira com 2 ingredientes",
     description: "Uma receita pronta em menos de 15 minutos existe (e você não precisa de nenhum utensílio especial)",
-    image: "/Imagens/Dicas/Massa fresca caseira.jpg",
+    image: "/Imagens/Dicas/massa-fresca-caseira.jpg",
     link: "https://www.tudogostoso.com.br/noticias/massa-fresca-caseira-com-2-ingredientes-e-pronta-em-menos-de-15-minutos-existe-e-voce-nao-precisa-de-nenhum-utensilio-especial-a9307.htm",
     buttonText: "Ver Receita"
   },
@@ -47,7 +47,7 @@ const dicas = [
     category: "Organização",
     title: "Lista de compras de supermercado: entenda como organizar a sua",
     description: "Como montar uma lista de compras completa e economizar no supermercado!",
-    image: "/Imagens/Dicas/Lista de compra.jpg",
+    image: "/Imagens/Dicas/lista-de-compra.jpg",
     link: "https://institucional.ifood.com.br/consumidores/lista-de-compras-de-supermercado/",
     buttonText: "Ler Dica Completa"
   },
@@ -56,7 +56,7 @@ const dicas = [
     category: "Sustentabilidade",
     title: "Conheça o reaproveitamento de alimentos, uma alternativa ao desperdício",
     description: "Descubra como reaproveitar alimentos, reduzir o desperdício e criar receitas sustentáveis.",
-    image: "/Imagens/Dicas/Aproveitamento integral dos alimentos.jpg",
+    image: "/Imagens/Dicas/aproveitamento-integral.jpg",
     link: "https://pactocontrafome.org/reaproveitamento-alimentos/",
     buttonText: "Ler Dica Completa"
   },
@@ -65,7 +65,7 @@ const dicas = [
     category: "Receitas",
     title: "Picanha ao Forno com Sal Grosso",
     description: "Uma receita suculenta e fácil para preparar a picanha com muito sabor.",
-    image: "/Imagens/Dicas/Picanha de forno.jpg",
+    image: "/Imagens/Dicas/picanha-de-forno.jpg",
     link: "https://www.tudogostoso.com.br/receita/249-picanha-ao-forno-com-sal-grosso.html",
     buttonText: "Ver Receita"
   },
