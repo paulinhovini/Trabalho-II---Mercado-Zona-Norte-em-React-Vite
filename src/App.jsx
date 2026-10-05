@@ -1,8 +1,8 @@
 import "./App.css";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
-import CardProdutos from "./components/CardProdutos";
-import CardDicas from "./components/CardDicas";
+import Navbar from "./components/Navbar.jsx";
+import Footer from "./components/Footer.jsx";
+import CardProdutos from "./components/CardProdutos.jsx";
+import CardDicas from "./components/CardDicas.jsx";
 
 // Arrays
 const ofertas = [
