@@ -6,9 +6,9 @@ Parte 2 (individual) do trabalho da disciplina Desenvolvimento Frontend II.
 Paulo Vinícius Gomes Gonçalves da Silva
 
 ## Origem
-Repositorio do grupo (Parte 1): https://github.com/paulinhovini/Trabalho-Mercado
-Pagina que fiz na Parte 1: index.html, produtos.html, dicas.html
-Autor(a) do index.html original: Paulo Vinícius Gomes Gonçalves da Silva
+- Repositorio do grupo (Parte 1): https://github.com/paulinhovini/Trabalho-Mercado
+- Pagina que fiz na Parte 1: index.html, produtos.html, dicas.html
+- Autor(a) do index.html original: Paulo Vinícius Gomes Gonçalves da Silva
 
 Como executar
 npm install
