@@ -2,9 +2,9 @@
    CONFIGURAÇÕES GERAIS
    ============================== */
 
-* {
-    box-sizing: border-box;
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* { box-sizing: border-box; }
 
 body {
     font-family: 'Inter', sans-serif;
@@ -31,11 +31,13 @@ body {
     gap: 6px;
     border-radius: 10px;
     white-space: nowrap;
+     font-family: 'Inter', sans-serif;
 }
 
 .nav-menu:hover {
     background-color: #4260E6;
     color: #FAFAFA;
+    font-family: 'Inter', sans-serif;
 }
 
 .nav-icon {
@@ -67,23 +69,28 @@ body {
     font-weight: 700;
 }
 
+a.btn-produto,
 .btn-produto {
-    background-color: #1B22A7;
-    color: #FAFAFA;
-    font-weight: 600;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 6px 10px;
+    background-color: #1B22A7 !important; 
+    color: #FAFAFA !important;
+    font-weight: 600; 
+    font-size: 1rem;
     border-radius: 8px;
     width: 100%;
-    border: 1px solid #1B22A7;
-    margin-top: 8px;
-    transition: background-color 0.2s ease, color 0.2s ease;
+    border: 1px solid #1B22A7 !important;
+    transition: background-color 0.2s ease;
 }
 
+a.btn-produto:hover,
 .btn-produto:hover {
-    background-color: #4260E6;
-    color: #FAFAFA;
-    border-color: #4260E6;
+    background-color: #4260E6 !important;
+    color: #FAFAFA !important;
+    border-color: #4260E6 !important;
 }
-
 
 /* ==============================
    CABEÇALHO DAS PÁGINAS
@@ -93,15 +100,18 @@ body {
     background-color: #4260E6;
     color: #FAFAFA;
     padding: 48px 0;
+     font-family: 'Inter', sans-serif;
 }
 
 .cabecalho-pagina h1 {
     font-weight: 700;
+     font-family: 'Inter', sans-serif;
 }
 
 .cabecalho-pagina p {
     margin-bottom: 0;
     opacity: 0.9;
+     font-family: 'Inter', sans-serif;
 }
 
 
@@ -113,20 +123,7 @@ body {
     color: #1B22A7;
     font-weight: 700;
     margin-bottom: 24px;
-}
-
-.caixa-clube {
-    background-color: #1B22A7;
-    color: #FAFAFA;
-    border-radius: 10px;
-    padding: 32px;
-}
-
-.btn-clube {
-    background-color: #FAFAFA;
-    color: #1B22A7;
-    border: 1px solid #FAFAFA;
-    font-weight: 600;
+     font-family: 'Inter', sans-serif;
 }
 
 .btn-clube:hover {
@@ -142,6 +139,7 @@ body {
 
 .footer-site {
     background-color: #1B22A7;
+     font-family: 'Inter', sans-serif;
 }
 
 .footer-icon {
@@ -153,10 +151,12 @@ body {
 .social-link {
     color: #FAFAFA;
     text-decoration: none;
+     font-family: 'Inter', sans-serif;
 }
 
 .quem-somos:hover,
 .social-link:hover {
     color: #FAFAFA;
     text-decoration: underline;
+     font-family: 'Inter', sans-serif;
 }
