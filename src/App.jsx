@@ -120,7 +120,7 @@ function App() {
           </div>
         </section>
 
-                {/*  BANNERS MENORES */}
+        {/*  BANNERS MENORES */}
         <section className="container pb-5">
           <div className="row g-3">
             <div className="col-12 col-md-6">
@@ -138,6 +138,118 @@ function App() {
             </div>
           </div>
         </section>
+
+        {/* CABEÇALHO DA PÁGINA*/}
+    <section id="produtos" className="cabecalho-pagina">
+          <div className="container text-center">
+            <h1 className="display-5">Encontre tudo o que precisa</h1>
+            <p>Explore nossos produtos e encontre qualidade, variedade e bons preços para o seu dia a dia.</p>
+          </div>
+        </section>
+
+        {/* PRODUTOS EM DESTAQUE*/}
+        <section className="container py-5">
+          <div className="row g-4">
+
+            <div className="col-12 col-md-3">
+              <div className="card">
+                <img src="/Imagens/Cards/Produtos/Leite.jpg" className="card-img-top object-fit-contain"
+                  alt="Leite Líquido UHT Glória Integral 1l" />
+                <div className="card-body">
+                  <h5 className="card-title">Leite Líquido UHT Glória Integral 1l</h5>
+                   <p className="card-text">R$ 6,99</p>
+                  <a href="#" className="btn btn-produto">VER PRODUTO</a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-12 col-md-3">
+              <div className="card">
+                <img src="/Imagens/Cards/Produtos/Macarrão.jpg" className="card-img-top object-fit-contain"
+                  alt="Macarrão Espaguete Renata N.8 com Ovos 500g" />
+                <div className="card-body">
+                  <h5 className="card-title">Macarrão Espaguete Renata N.8 com Ovos 500g</h5>
+                   <p className="card-text">R$ 5,99</p>
+                  <a href="#" className="btn btn-produto">VER PRODUTO</a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-12 col-md-3">
+              <div className="card">
+                <img src="/Imagens/Cards/Produtos/Carne Moída.jpg" className="card-img-top object-fit-contain"
+                  alt="Carne Moída de Alcatra Bovina" />
+                <div className="card-body">
+                  <h5 className="card-title">Carne Moída de Alcatra Bovina</h5>
+                   <p className="card-text">58,99 kg</p>
+                  <a href="#" className="btn btn-produto">VER PRODUTO</a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-12 col-md-3">
+              <div className="card">
+                <img src="Imagens/Cards/Produtos/Refrigerante.jpg" className="card-img-top object-fit-contain"
+                  alt="Refrigerante Coca-Cola Pet 1,5 L" />
+                <div className="card-body">
+                  <h5 className="card-title">Refrigerante Coca-Cola Pet 1,5 L</h5>
+                 <p className="card-text">58,99/kg</p>
+                  <a href="#" className="btn btn-produto">VER PRODUTO</a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-12 col-md-3">
+              <div className="card">
+                <img src="Imagens/Cards/Produtos/Sabão Liquido.jpg" className="card-img-top object-fit-contain"
+                  alt="Sabão Líquido Omo Lavagem Perfeita 3L" />
+                <div className="card-body">
+                  <h5 className="card-title">Sabão Líquido Omo Lavagem Perfeita 3L</h5>
+                   <p className="card-text">R$ 36,99</p>
+                  <a href="#" className="btn btn-produto">VER PRODUTO</a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-12 col-md-3">
+              <div className="card">
+                <img src="Imagens/Cards/Produtos/Amaciante.jpg" className="card-img-top object-fit-contain"
+                  alt="Amaciante Ypê Ultra Intenso 2 L" />
+                <div className="card-body">
+                  <h5 className="card-title">Amaciante Ypê Ultra Intenso 2 L</h5>
+                   <p className="card-text">R$ 10,99</p>
+                  <a href="#" className="btn btn-produto">VER PRODUTO</a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-12 col-md-3">
+              <div className="card">
+                <img src="Imagens/Cards/Produtos/Água Sanitária.jpg" className="card-img-top object-fit-contain"
+                  alt="Água Sanitária Pro Water 2l" />
+                <div className="card-body">
+                  <h5 className="card-title">Água Sanitária <br />
+                    Pro Water 2l</h5>
+                   <p className="card-text">R$ 5,99</p>
+                  <a href="#" className="btn btn-produto">VER PRODUTO</a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-12 col-md-3">
+              <div className="card">
+                <img src="Imagens/Cards/Produtos/Limpador Multiuso Veja.jpg"className="card-img-top object-fit-contain"
+                  alt="Limpador Veja Gold Multiuso 750ml" />
+                <div className="card-body">
+                  <h5 className="card-title">Limpador Veja Gold Multiuso 750ml</h5>
+                 <p className="card-text">R$ 6,49</p>
+                     <a href="#" className="btn btn-produto">VER PRODUTO</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </ section >
 
       </main>
     </div>

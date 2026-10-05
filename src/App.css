@@ -160,3 +160,15 @@ a.btn-produto:hover,
     text-decoration: underline;
      font-family: 'Inter', sans-serif;
 }
+
+/* ==============================
+   ROLA
+   ============================== */
+
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  scroll-margin-top: 80px;
+}
