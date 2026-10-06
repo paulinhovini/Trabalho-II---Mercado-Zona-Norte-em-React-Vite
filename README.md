@@ -15,7 +15,7 @@ npm install
 npm run dev
 
 ## Site publicado
-https://trabalho-ii-mercado-zona-norte.netlify.app/
+https://mercado-zona-norte-paulo-vinicius.netlify.app/
 
 ## Secoes da Landing Page
 | Secao | Origem |
